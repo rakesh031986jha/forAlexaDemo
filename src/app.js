@@ -1,3 +1,5 @@
+'use strict';
+
 var Alexa = require("alexa-sdk");
 
 exports.handler = function(event, context, callback) {
