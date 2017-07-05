@@ -17,3 +17,4 @@ var handlers = {
         this.emit(':tell', 'Hello World!');
     }
 };
+console.log('Server running on port');
