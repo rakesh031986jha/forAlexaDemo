@@ -1,0 +1,23 @@
+{
+  "name": "alexa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakesh031986jha/forAlexaDemo.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rakesh jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakesh031986jha/forAlexaDemo/issues"
+  },
+  "homepage": "https://github.com/rakesh031986jha/forAlexaDemo#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
+}
