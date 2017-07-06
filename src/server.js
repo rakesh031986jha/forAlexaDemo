@@ -2,7 +2,8 @@
 
 var AlexaAppServer = require( 'alexa-app-server' );
 
-var server = new AlexaAppServer( {
+var server = new AlexaAppServer(
+	console.log('server ruing our not');
 	httpsEnabled: false,
 	port: process.env.PORT || 8000
 } );
