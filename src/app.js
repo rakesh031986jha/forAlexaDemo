@@ -21,10 +21,10 @@ app.intent('sayNumber',
   {
     "slots":{"number":"NUMBER"}
 	,"utterances":[
-		"say the number {1-100|number}",
-		"give me the number {1-100|number}",
-		"tell me the number {1-100|number}",
-		"I want to hear you say the number {1-100|number}"]
+		"say the number {1-10|number}",
+		"give me the number {1-10|number}",
+		"tell me the number {1-10|number}",
+		"I want to hear you say the number {1-10|number}"]
   },
   function(request,response) {
     var number = request.slot('number');
