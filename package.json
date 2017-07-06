@@ -2,7 +2,7 @@
   "name": "alexa",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "src/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rakesh031986jha/forAlexaDemo.git"
