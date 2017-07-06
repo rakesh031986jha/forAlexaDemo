@@ -8,10 +8,11 @@
     "url": "git+https://github.com/rakesh031986jha/forAlexaDemo.git"
   },
   "dependencies": {
+    "alexa-app-server": "^3.0.1",
     "alexa-sdk": "^1.0.11"
   },
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/server.js"
   },
   "author": "rakesh jha",
   "license": "ISC",
