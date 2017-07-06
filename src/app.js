@@ -32,4 +32,4 @@ app.intent('sayNumber',
   }
 );
 
-module.exports = app;
+module.exports = server;
